@@ -1,0 +1,125 @@
+@charset "UTF-8";
+.header {
+  width: 100%;
+  height: 65px;
+  background: #010632;
+}
+.header_head {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
+  height: 69px;
+  margin-left: 70px;
+}
+.header_head_a1 {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition-duration: 0.6s;
+}
+.header_head_a1:hover {
+  border-bottom: 1px solid #fff;
+  transition-duration: 0.4s;
+}
+.header_head_a2 {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition-duration: 0.6s;
+}
+.header_head_a2:hover {
+  border-bottom: 1px solid #fff;
+  transition-duration: 0.4s;
+}
+.header_head_logo {
+  font-size: 48px;
+  font-family: "Istok Web", sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+.header_head_logo_span1 {
+  color: #0075FF;
+}
+.header_head_logo_span2 {
+  color: #FFB800;
+}
+.header_head_a3 {
+  font-weight: 400;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition-duration: 0.6s;
+}
+.header_head_a3:hover {
+  border-bottom: 1px solid #fff;
+  transition-duration: 0.4s;
+}
+
+.mobileheader {
+  display: none;
+}
+
+.main_block1 {
+  background: url(./img/Фонhero-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 713px;
+}
+.main_block1_bl1 {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_bl1_p {
+  font-size: 96px;
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+  margin-top: 110px;
+  color: #0075FF;
+}
+.main_block1_bl2 {
+  display: flex;
+  justify-content: center;
+}
+.main_block1_bl2_p {
+  font-size: 96px;
+  font-family: "Jost", sans-serif;
+  font-weight: 900;
+  margin-top: 25px;
+  color: #FFC700;
+}
+
+@media screen and (max-width: 375px) {
+  .header {
+    display: none;
+  }
+  .mobileheader {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 52px;
+    background: #010632;
+  }
+  .mobileheader_logo {
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 16px;
+  }
+  .mobileheader_logo_span1 {
+    color: #0075FF;
+  }
+  .mobileheader_logo_span2 {
+    color: #FFB800;
+  }
+}/*# sourceMappingURL=style.css.map */
