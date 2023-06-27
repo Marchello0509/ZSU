@@ -24,7 +24,7 @@ $white: #fff;
         @include FlexElement(space-around, center);
         width: 1440px;
         height: 69px;
-        margin-left: 70px;
+        margin: 0 auto;
         &_a1 {
             font-weight: 400;
             font-size: 24px;
