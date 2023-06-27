@@ -297,6 +297,14 @@
   font-family: "Jost", sans-serif;
   border: none;
   cursor: pointer;
+  transition-duration: 0.6s;
+}
+.main5_blocks_block1_centerbtn_btn:hover {
+  background: #060D49;
+  width: 245px;
+  height: 71px;
+  box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.4s;
 }
 
 .mobilemain5_center {

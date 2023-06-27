@@ -292,6 +292,14 @@ $white: #fff;
                     font-family: $jost;
                     border: none;
                     cursor: pointer;
+                    transition-duration: 0.6s;
+                    &:hover {
+                        background: $bluew;
+                        width: 245px;
+                        height: 71px;
+                        box-shadow: 0px 0px 4px 5px rgba(0, 0, 0, 0.25);
+                        transition-duration: 0.4s;
+                    }
                 }
             }
         }
