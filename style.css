@@ -138,6 +138,13 @@
   height: 364px;
 }
 
+.mobilemain2_center {
+  display: none;
+}
+.mobilemain2_blockimg {
+  display: none;
+}
+
 @media screen and (max-width: 375px) {
   .header {
     display: none;
@@ -193,5 +200,40 @@
     font-weight: 700;
     color: #FFC700;
     margin-top: 15px;
+  }
+  .main2 {
+    display: none;
+  }
+  .mobilemain2 {
+    width: 100%;
+    height: 460px;
+    background: #010632;
+  }
+  .mobilemain2_center {
+    display: flex;
+    justify-content: center;
+  }
+  .mobilemain2_center_textdiv {
+    width: 271px;
+    height: 130px;
+    margin-top: 24px;
+  }
+  .mobilemain2_center_textdiv_title {
+    color: #FFF;
+    font-size: 24px;
+    font-family: "Istok Web", sans-serif;
+    font-weight: 700;
+  }
+  .mobilemain2_center_textdiv_p {
+    color: #FFF;
+    font-size: 16px;
+    margin-top: 10px;
+    line-height: 25px;
+    font-family: "Jost", sans-serif;
+  }
+  .mobilemain2_blockimg {
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
   }
 }/*# sourceMappingURL=style.css.map */
